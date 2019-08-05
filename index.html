@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    <title> Generador de Memes</title>
+<link href="img/logo.png" rel="icon" type="image/png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>¡HAZ TU PROPIO MEME!</h1>
+    <div class="container">
+	<div class="row"></div></div>
+<div id="otro">  <p>
+        <div class="row">
+            <div class="col-md-3">
+            <div class="panel panel-default">
+				<div class="panel-heading">¡Escribe lo que ira en él!</div>
+				    <div class="panel-body">
+                      <p>Texto del Meme (Arriba):
+                        <input type="text" id="txtTextoArriba" onkeyup="GenerarMeme()" placeholder="Texto de arriba" class="form-control" /></p>
+                        <p>Texto del Meme (Abajo,opcional):
+                        <input type="text" id="txtTextoAbajo" onkeyup="GenerarMeme()" placeholder="Texto de abajo" class="form-control" /></p>
+
+                    </div>
+                </div></div>
+
+
+
+
+            <div class="col-md-8">
+                <div class="col-md-12 text-center">
+			<div class="panel panel-default">
+			<div class="panel-heading">Vista Previa &nbsp;</div>
+                <div class="panel-body">
+                <img src="img/meme5.jpeg" id="image" style="display:none;" />
+                    <canvas id="canvas"></canvas>
+
+                </div>
+                    </div>
+                    <div id="des"> <a id="btnDescargar" value="Descargar" class="btn btn-danger">Descargar meme </a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="Download">  <div class="panel panel-default">
+            <div class="panel-heading">Otras opciones</div>
+        <div class="panel-body">
+            <div class="col-xs-2col-md-6">
+                <a href="#" class="thumbnail">
+                    <img class="imgthumbnail" src="img/meme1.jpeg" >
+                </a>
+            </div>
+            <div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme2.jpeg"  class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme3.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme4.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme5.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme6.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme7.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme8.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme9.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme10.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme11.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme12.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme13.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme14.jpeg"  class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme15.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme16.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme17.jpeg" class="imgthumbnail"></a></div>
+
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme19.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme20.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme21.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme22.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme23.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme24.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme25.jpeg"  class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme26.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme27.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme28.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme29.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme30.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme31.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme32.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme33.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme34.jpeg" class="imgthumbnail"></a></div>
+<div class="col-xs-2col-md-6"><a href="#" class="thumbnail">
+<img src="img/meme35.jpeg" class="imgthumbnail"></a></div>
+<type="fileMeme" id="fileMeme"/>
+        </div>
+    </div>
+
+</div>
+
+
+    <script src="js/GeneradorMeme.js"></script>
+    <script>
+    function downloadCanvas(link, canvasId, filename) {
+    link.href = document.getElementById(canvasId).toDataURL();
+    link.download = filename;
+}
+
+document.getElementById('btnDescargar').addEventListener('click', function() {
+    downloadCanvas(this, 'canvas', 'Meme.png');
+}, false);
+    </script>
+
+</div>
+<footer id="footerinesperado">
+  Nicolás Cingolani 4to 2da
+  <button onclick="location.href='https://github.com/nicocingo/tp'">Repositorio del TP</button>
+</footer>
+</body>
+
+
+
+</html>
